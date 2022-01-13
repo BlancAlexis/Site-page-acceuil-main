@@ -217,6 +217,14 @@ width: 100%;
 }
 
 .spons{
-  display: flex;
-float: right;
+  display:flex;
+    position:  relative;
+    margin-left:50%;
+    margin-top: 37%;
+    background-color: bisque;
+  
+}
+
+.imgspons{
+  width:  40px;
 }
