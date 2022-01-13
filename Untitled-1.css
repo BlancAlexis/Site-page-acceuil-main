@@ -4,9 +4,6 @@ body {
   background-color: gray;
 
 }
-.image {
-  display: flex;
-}
 
 header {
   background-color: #02008c;
@@ -81,7 +78,7 @@ width: 100%;
 
   .rallye {
     float: left;
-    width: 35%;
+    width: 50%;
     background-color: red;
     height: 300px;
   
@@ -137,24 +134,26 @@ text-align: left;
 
 
 .image>img {
-  width: 100%;
-  display: flex;
-  animation-duration: 30s;
+
+  animation-duration: 90s;
   animation-name: cc;
   animation-iteration-count: infinite;
+ 
+}
+
+.image {
+  display: flex;
+}
+.img-deroulante{
+  height: 300px;
+  width: 1000px;
+
 }
 
 
-.prochain{
-  float:left;
-  background-color:blue;
-  width: 55%;
-  padding: 2%;
-  margin: 0.15%;
-  text-align: center;
-  border:  2px solid green;
-  border-radius: 25px;    
-}
+
+
+
 
 @keyframes cc {
   0% {
