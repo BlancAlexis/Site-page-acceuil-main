@@ -111,6 +111,10 @@ width: 100%;
                 inset 2px 2px 3px rgba(240, 19, 19, 0.6);
 }
 
+.favorite{
+  margin-top: 80px;
+
+}
 .seconde {
   float: left;
   text-align: center;
@@ -118,15 +122,11 @@ width: 100%;
   width: 100%;
 }
 .evenement {
-  float: right;
+  float: left;
   width : 40%;
   background-color: rgb(80, 53, 53);
 }
-.actu {
-  float: left;
-  width : 60%;
-  background-color: rgb(105, 87, 87);
-}
+
 .lol {
 display: list-item;
 text-align: left;
@@ -141,6 +141,46 @@ text-align: left;
  
 }
 
+.image>p {
+
+  animation-duration: 90s;
+  animation-name: cc;
+  animation-iteration-count: infinite;
+ 
+}
+
+.actu{
+  display: flex;
+    float: right;
+    width : 60%;
+    background-color: rgb(105, 87, 87);
+  
+}
+.imagelicence {
+  background-image: url(Licence_2022_vDef.jpg);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  margin-right:10%;
+}
+  .imagecalen {
+    background-image: url('Cal 2022 -V1.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right:10%;
+}
+.imagedigi {
+  background-image: url('Slider - France Auto Digital-130.jpg');
+  background-position: center;
+  background-size:100%;
+  background-repeat: no-repeat;
+  margin-right:10%;
+}
+.texte{
+  position: relative;
+  top: 280px;
+}
 .image {
   display: flex;
 }
@@ -149,11 +189,6 @@ text-align: left;
   width: 1000px;
 
 }
-
-
-
-
-
 
 @keyframes cc {
   0% {
@@ -188,4 +223,19 @@ text-align: left;
 .actu>img{
   width: 60%;
   
+}
+#TitleFooter{
+  color: white;
+}
+
+#ParagrapheFooter{
+  font-family : "Boldness Race";
+  text-align : left;
+  color: white;
+  src: url("/font/BoldnessRace.ttf") format("ttf");
+}
+
+#Copyright{
+  color: white;
+  padding-top : 10px;
 }
