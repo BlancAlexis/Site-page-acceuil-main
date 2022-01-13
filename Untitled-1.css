@@ -1,0 +1,192 @@
+body {
+  margin : 0px;
+  padding : 0px;
+  background-color: gray;
+
+}
+.image {
+  display: flex;
+}
+
+header {
+  background-color: #02008c;
+  padding-bottom: 35px;
+}
+
+#myHeader{
+  text-align : center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+ul {
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  text-align:center;
+  background-color: #333;
+  width : 50%;
+  margin: auto;
+}
+
+li  {
+  display:inline;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding:10px;
+  text-decoration: none;
+}
+  .mention{
+float: left;
+text-align: center;
+background-color: red;
+width: 100%;
+
+  }
+
+  .information {
+    float: left;
+    padding-top: 5%;
+    padding-right: 30px;
+    padding-left: 25%;
+
+
+  }
+  
+  .informati {
+    float: right;
+    padding-top: 5%;
+    padding-right: 25%;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+    
+  }
+  .partie{
+    float: left;
+    background-color: rgb(93, 0, 243);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+
+    
+  }
+
+  .rallye {
+    float: left;
+    width: 35%;
+    background-color: red;
+    height: 300px;
+  
+  }
+
+  .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(44, 43, 43);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgb(0, 156, 26);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(240, 19, 19, 0.6);
+}
+
+.seconde {
+  float: left;
+  text-align: center;
+  background-color: red;
+  width: 100%;
+}
+.evenement {
+  float: right;
+  width : 40%;
+  background-color: rgb(80, 53, 53);
+}
+.actu {
+  float: left;
+  width : 60%;
+  background-color: rgb(105, 87, 87);
+}
+.lol {
+display: list-item;
+text-align: left;
+}
+
+
+.image>img {
+  width: 100%;
+  display: flex;
+  animation-duration: 30s;
+  animation-name: cc;
+  animation-iteration-count: infinite;
+}
+
+
+.prochain{
+  float:left;
+  background-color:blue;
+  width: 55%;
+  padding: 2%;
+  margin: 0.15%;
+  text-align: center;
+  border:  2px solid green;
+  border-radius: 25px;    
+}
+
+@keyframes cc {
+  0% {
+      transform: translateX(0)
+  }
+  25% {
+      transform: translateX(-1080px)
+  }
+  50% {
+      transform: translateX(-2160x)
+  }
+  75% {
+      transform: translateX(-3240px)
+  }
+  100% {
+      transform: translateX(0)
+  }
+}
+#encore {
+  overflow: hidden;
+
+}
+
+.img1{
+  width: 100%;
+  height: 5%;
+}
+.evenement>img{
+  width: 85%;
+  
+}
+.actu>img{
+  width: 60%;
+  
+}
