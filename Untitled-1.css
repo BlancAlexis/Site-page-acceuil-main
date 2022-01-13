@@ -48,24 +48,6 @@ width: 100%;
 
   }
 
-  .information {
-    float: left;
-    padding-top: 5%;
-    padding-right: 30px;
-    padding-left: 25%;
-
-
-  }
-  
-  .informati {
-    float: right;
-    padding-top: 5%;
-    padding-right: 25%;
-    padding-bottom: 50px;
-    padding-left: 80px;
-
-    
-  }
   .partie{
     float: left;
     background-color: rgb(93, 0, 243);
@@ -127,12 +109,6 @@ width: 100%;
   background-color: rgb(80, 53, 53);
 }
 
-.lol {
-display: list-item;
-text-align: left;
-}
-
-
 .image>img {
 
   animation-duration: 90s;
@@ -153,34 +129,23 @@ text-align: left;
   display: flex;
     float: right;
     width : 60%;
-    background-color: rgb(105, 87, 87);
+    background-color: rgb(0, 255, 72);
+  
   
 }
+
 .imagelicence {
-  background-image: url(Licence_2022_vDef.jpg);
-  background-position: center;
-  background-size: 70%;
-  background-repeat: no-repeat;
+
   margin-right:10%;
 }
   .imagecalen {
-    background-image: url('Cal 2022 -V1.jpg');
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
     margin-right:10%;
 }
 .imagedigi {
-  background-image: url('Slider - France Auto Digital-130.jpg');
-  background-position: center;
-  background-size:100%;
-  background-repeat: no-repeat;
   margin-right:10%;
+  
 }
-.texte{
-  position: relative;
-  top: 280px;
-}
+
 .image {
   display: flex;
 }
@@ -188,6 +153,12 @@ text-align: left;
   height: 300px;
   width: 1000px;
 
+}
+.ayo {
+  width: 100%;
+  position:  relative;
+  margin-right:10%;
+  margin-top: 28%;
 }
 
 @keyframes cc {
@@ -209,7 +180,6 @@ text-align: left;
 }
 #encore {
   overflow: hidden;
-
 }
 
 .img1{
@@ -217,7 +187,7 @@ text-align: left;
   height: 5%;
 }
 .evenement>img{
-  width: 85%;
+  width: 65%;
   
 }
 .actu>img{
@@ -226,11 +196,12 @@ text-align: left;
 }
 #TitleFooter{
   color: white;
+  text-align : center;
 }
 
 #ParagrapheFooter{
   font-family : "Boldness Race";
-  text-align : left;
+  text-align : center;
   color: white;
   src: url("/font/BoldnessRace.ttf") format("ttf");
 }
@@ -238,4 +209,14 @@ text-align: left;
 #Copyright{
   color: white;
   padding-top : 10px;
+  text-align : center;
+}
+
+#bougestp{
+  text-align: center;
+}
+
+.spons{
+  display: flex;
+float: right;
 }
