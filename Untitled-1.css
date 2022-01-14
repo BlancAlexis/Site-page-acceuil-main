@@ -100,7 +100,7 @@ width: 100%;
 .seconde {
   float: left;
   text-align: center;
-  background-color: red;
+  background-color: rgb(117, 85, 85);
   width: 100%;
 }
 .evenement {
@@ -217,14 +217,14 @@ width: 100%;
 }
 
 .spons{
-  display:flex;
-    position:  relative;
-    margin-left:50%;
-    margin-top: 37%;
+    
     background-color: bisque;
   
 }
 
 .imgspons{
-  width:  40px;
+  width:  4%;
+  margin-left: 10%;
+ margin-right: 5%;
+ padding-right:1px;
 }
