@@ -1,7 +1,7 @@
 body {
   margin : 0px;
   padding : 0px;
-  background-color: gray;
+  background-color: rgb(85, 85, 85);
 
 }
 
@@ -49,13 +49,18 @@ width: 100%;
   }
 
   .partie{
-    float: left;
     background-color: rgb(93, 0, 243);
-    width: 100%;
+    width: 75%;
     height: 300px;
     text-align: center;
 
     
+  }
+  #carre{
+    float: right;
+    background-color:rgb(235, 31, 31);
+    width: 25%;
+    height: 300px;
   }
 
   .rallye {
@@ -119,7 +124,7 @@ width: 100%;
 
 .image>p {
 
-  animation-duration: 90s;
+  animation-duration: 1s;
   animation-name: cc;
   animation-iteration-count: infinite;
  
@@ -166,13 +171,13 @@ width: 100%;
       transform: translateX(0)
   }
   25% {
-      transform: translateX(-1080px)
+      transform: translateX(-725px)
   }
   50% {
-      transform: translateX(-2160x)
+      transform: translateX(-1400px)
   }
   75% {
-      transform: translateX(-3240px)
+      transform: translateX(-2500px)
   }
   100% {
       transform: translateX(0)
