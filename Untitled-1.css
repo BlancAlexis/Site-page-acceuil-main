@@ -1,8 +1,7 @@
 body {
   margin : 0px;
   padding : 0px;
-  background-color: rgb(85, 85, 85);
-
+  background-color : rgb(23,23,23);
 }
 
 header {
@@ -55,12 +54,6 @@ width: 100%;
     text-align: center;
 
     
-  }
-  #carre{
-    float: right;
-    background-color:rgb(235, 31, 31);
-    width: 25%;
-    height: 300px;
   }
 
   .rallye {
@@ -193,11 +186,11 @@ width: 100%;
 }
 .evenement>img{
   width: 65%;
-  
+  height: 510px;
 }
 .actu>img{
   width: 60%;
-  
+
 }
 #TitleFooter{
   color: white;
@@ -224,6 +217,7 @@ width: 100%;
 .spons{
     
     background-color: bisque;
+    height: 600px;
   
 }
 
@@ -232,4 +226,5 @@ width: 100%;
   margin-left: 10%;
  margin-right: 5%;
  padding-right:1px;
+ margin-top: 5%;
 }

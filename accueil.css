@@ -1,0 +1,347 @@
+/*Paramètre "Generic" de la page*/
+body {
+	margin : 0px;
+	padding : 0px;
+	background-color : rgb(23,23,23);
+}
+
+header {
+	background-color : #086099;
+	padding-bottom: 35px;
+}
+
+main {
+  background-color : rgb(23,23,23);
+}
+
+img {
+  width: 25%;
+  height: auto;
+}
+
+footer{
+
+}
+
+h1{
+	text-align : center;
+	color : white;
+}
+
+h2{
+	text-align : center;
+	font-family: "Boldness Race";
+	color : white;
+	font-size: 40px;
+}
+
+p{
+	text-align : center;
+	font-family: "Boldness Race";
+}
+
+/*========================================================================*/
+/*================================ IMPORT POLICE =========================*/
+
+@font-face {
+ font-family: "Boldness Race";
+ src: url("font/BoldnessRace.ttf") format("truetype");
+}
+@font-face {
+ font-family: "ALL AGES";
+ src: url("font/AllAgesDEMO.ttf") format("truetype");
+}
+
+/*========================================================================*/
+/*================================ HEADER ================================*/
+
+#myHeader{
+	text-align : center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+/*========================================================================*/
+/*================================ MAIN ==================================*/
+
+
+/*HAUT DE PAGE*/
+#divSépa{
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	
+}
+
+#DivTitre{
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 1px;
+	padding-left: 0px;
+	background-color : rgba(8,96,153,0.85);
+}
+/*====================*/
+
+/*===les Grandes Divisions de chaque bandeau (en tous 1)===*/
+#MainDiv1{
+	padding-top: 40px;
+	padding-right: 0px;
+	padding-bottom: 40px;
+	padding-left: 0px;
+}
+#MainDiv2{
+	padding-top: 40px;
+	padding-right: 0px;
+	padding-bottom: 40px;
+	padding-left: 0px;
+	
+}
+/*==========================================================*/
+
+/* ================================CONTENU GENERAL BANDEAU ======================================*/
+#SubDiv1{/*Permet de prendre toutes la largueur ET aligner toutes les sous divisions horizontalement*/
+	display : flex;
+	width : 100%;
+}
+
+.voitureRallye{/*Image*/
+		width: 2000px;
+}
+@keyframes translation {
+	0% {
+		transform: translateX(0)
+	}
+	25% {
+		transform: translateX(-1422px)
+	}
+	50% {
+		transform: translateX(-2845px)
+	}
+	75% {
+		transform: translateX(-4270px)
+	}
+	100% {
+		transform: translateX(0)
+	}
+  }
+#masquage {/* Masque l'image si passe sûr un bloc*/
+	overflow: hidden;
+  }
+
+#SubDivImage2{
+	display:flex;
+}
+#SubDivImage2>img {
+	animation-duration: 30s;
+    height: 600px;
+	animation-name: translation;
+	animation-iteration-count: infinite;
+   
+  }  
+
+#SubDivTexte1{/* Division à l'intérieur d'un bandeau pour mettre en forme la position du texte*/
+	width : 142%;
+	background-color : rgba(8,96,153,0.85);
+	color :#e55d22 ;
+	font-size: 155%;
+}
+
+#SubDivTexte2{/* Division à l'intérieur d'un bandeau pour mettre en forme la position du texte*/
+	width : 157%;
+	background-color : rgba(50, 69, 82, 0.85);
+}
+
+#SubDivTexte2Part1{/* Division à l'intérieur du bandeau SubDivTexte2 pour mettre en forme la position du texte et des photos*/
+	height : 48%;
+}
+
+#SubDivTexte2Part2{/* Division à l'intérieur du bandeau SubDivTexte2 pour mettre en forme la position du texte et des photos*/
+	height : 48%;
+	
+}
+
+#ParagrapheDiv1{/* Paramètre pour le pargraphe de la division (du premier bandeau) numéro 1*/
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	text-align : center;
+	font-family: "Boldness Race";
+	font-size : 35px;
+}
+.ParagrapheDiv2{/* Paramètre pour le pargraphe de la division (du premier bandeau) numéro 1*/
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	text-align : center;
+	font-family: "Boldness Race";
+	font-size : 25px;
+}
+.styled {/*Pour les boutons*/
+	margin-left: 37%;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(44, 43, 43);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color:      #e55d22     ;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(240, 19, 19, 0.6);
+}
+
+#image{
+	width: 95%;
+	height: auto;
+	padding-left : 2.5%;
+}
+#galerieactu{
+	width : 95%;
+	margin-left : 5%;
+}
+
+#ffsa1{
+	text-align : center;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom : 30px;
+}
+
+#ffsa2{
+	text-align : center;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom : 50px;
+}
+
+#ffsa3{
+	text-align : center;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom : 50px;
+}
+
+#galeriesponsors{
+	width : 95%;
+	margin-left : 5%;
+}
+
+#sponsor1{
+	text-align : center;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom : 40px;
+}
+
+#sponsor2{
+	text-align : center;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom : 30px;
+}
+
+#sponsor3{
+	text-align : center;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom : 30px;
+}
+
+#SéparateurLatéraux{/*Décalge des deux boxs du main*/
+	width : 3%;
+}
+#SéparateurMilieu{/*Décalge des deux boxs du main*/
+	width : 100%;
+	padding-top : 4%;
+	background-color : rgb(23,23,23);
+}
+
+
+/*=========================================*/
+/*Placement et Paramètre du deuxième bouton*/
+#DivBouton2{
+	text-align : center;
+	padding-bottom: 30px;
+}
+
+#BoutonParagraphe2{
+	font-family: "Boldness Race";
+	font-size : 35px;
+	color : white;
+}
+/*=========================================*/
+
+#SéparateurFooter{/*Petite barre de séparation entre le main et le footer*/
+	margin-top : 60px;
+	padding-top : 20px;
+	padding-bottom : 20px;
+	background-color : rgba(8,96,153,0.85);
+}
+
+/*==============================================================================================*/
+
+
+
+/*========================================================================*/
+/*================================ FOOTER ================================*/
+
+#TitleFooter{
+	color: white;
+	font-family: "ALL AGES";
+}
+
+#ParagrapheFooter{
+	text-align : left;
+	color: white;
+	font-family: "Boldness Race";
+}
+
+#Copyright{
+	color: white;
+	padding-top : 10px;
+}
+/*=========================================================================*/
+/*======================= PARAMETRE MENU DE NAVIGATION ====================*/
+
+ul {
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+	overflow: hidden;
+    text-align:center;
+	background-color: #333;
+	width : 50%;
+	margin: auto;
+}
+
+li {
+	display:inline;
+	border-right: 1px solid #bbb;
+}
+
+li a {
+    display:inline-block;
+	color: white;
+	text-align: center;
+    padding:10px;
+	text-decoration: none;
+}
+/*=========================================================================*/
